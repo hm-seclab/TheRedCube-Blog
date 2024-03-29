@@ -12,4 +12,4 @@ Nevertheless, it was a great time were we solved several challenges and had a lo
 
 ### WriteUps
 
-- [Its right there](/posts/SquareCTF/ItsRightThere)
+- [Its right there](TheRedCube-Blog/posts/SquareCTF/ItsRightThere.html)
