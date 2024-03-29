@@ -16,7 +16,7 @@ export default hopeTheme({
 
   repo: "hm-seclab/TheRedCube-Blog",
 
-  docsDir: "src",
+  docsDir: "docs",
 
   // navbar
   navbar,
