@@ -1,6 +1,7 @@
 ---
 sticky: true
 star: true
+timeline: false
 author: Marius Biebel
 cover: /assets/images/about.jpg
 ---
