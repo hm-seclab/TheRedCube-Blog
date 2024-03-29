@@ -1,0 +1,19 @@
+{
+  "name": "the_red_cube_blog",
+  "version": "0.0.1",
+  "description": "A website and blog for the CTF team of the University of Applied Sciences Munich",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build docs",
+    "docs:clean-dev": "vuepress-vite dev docs --clean-cache",
+    "docs:dev": "vuepress-vite dev docs",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.9",
+    "vue": "^3.4.21",
+    "vuepress": "2.0.0-rc.9",
+    "vuepress-theme-hope": "2.0.0-rc.32"
+  }
+}
