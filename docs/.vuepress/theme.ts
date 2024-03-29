@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://hm-seclab.github.io",
 
   author: {
     name: "TheRedCube",
@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "assets/images/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "hm-seclab/TheRedCube-Blog",
 
   docsDir: "src",
 

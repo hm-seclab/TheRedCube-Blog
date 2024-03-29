@@ -2,6 +2,8 @@
 
 This is the blog of the CTF team **TheRedCube** from the University of Applied Sciences, Munich. This repository is intended to be a place for write-ups and blog posts related to the CTF team.
 
+#### [TheRedCube Blog](https://hm-seclab.github.io/TheRedCube-Blog/)
+
 ## Technology
 
 The page is built as a GitHub Pages project. It gets built and published every time something is merged/pushed on the main branch. It's based on [VuePress](https://vuejs.press/) and the theme [VuePress Theme Hope](https://theme-hope.vuejs.press/).
