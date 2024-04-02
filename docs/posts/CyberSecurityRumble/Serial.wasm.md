@@ -1,6 +1,7 @@
 ---
 date: 2022-10-08
 author: Julian Krieger
+timeline: false
 ---
 
 # Serial.wasm
