@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://hm-seclab.github.io/TheRedCube-Blog/sitemap.xml
