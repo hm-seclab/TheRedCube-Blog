@@ -8,21 +8,21 @@ cover: /assets/images/about.jpg
 
 # About us
 
-We are the CTF Team of the University of Applied Sciences Munich and participate at several CTFs a year. The Team was initialized by Students from the Master IT-Security, but we are open for all intreseted students, also form other professions or faculties. 
+We are the CTF Team of the University of Applied Sciences Munich and participate in several CTFs a year. The Team was initialized by Students from the Master IT-Security, but we are open to all interested students and students from other professions or faculties.
 
-Our main focus is not to be the best Team but solving interesting and funny challanges were we can work together to learn new thinks. 
+Our main focus is not to be the best Team but to solve interesting and funny challenges where we can work together to learn new ideas.
 
 ## How to Join
 
-If you like to join and participate in the next CTF feel free to reach out to [info@fs.cs.hm.edu](mailto:info@fs.cs.hm.edu). You can also speak to us directly at the student council of the Faculty 07 in Room R0.013 or reach out to [Prof. Dr Peter Trapp](https://cs.hm.edu/kontakte_de/phonebook_detailseite_32577.de.html) who also helps us organizing the events. 
+If you would like to join and participate in the next CTF, feel free to reach out to [info@fs.cs.hm.edu](mailto:info@fs.cs.hm.edu). You can also speak to us directly at the student council of the Faculty 07 in Room R0.013 or reach out to [Prof. Dr Peter Trapp](https://cs.hm.edu/kontakte_de/phonebook_detailseite_32577.de.html) who also helps us organize the events.
 
-## What do i need?
+## What do I need?
 
-You don't need a lot of background or experience, but some preparations can be helpfull. You need a Laptop best with a VM like Kali Linux. Also you can look into some challanges for free on pages like [HackTheBox](https://www.hackthebox.com/) or [TryHackMe](https://tryhackme.com/)
+You don't need a lot of background or experience, but some preparations can be helpful. You need a laptop with a VM like Kali Linux. Also, you can look into some challenges for free on pages like [HackTheBox](https://www.hackthebox.com/) or [TryHackMe](https://tryhackme.com/)
 
-## What type of Challanges are there?
+## What type of Challenges are there?
 
-Capture The Flag (CTF) competitions are popular in cybersecurity, challenging participants with a variety of puzzles and tasks that mimic real-world security scenarios. These competitions are generally categorized into several types of challenges:
+Capture The Flag (CTF) competitions are popular in cybersecurity, challenging participants with various puzzles and tasks that mimic real-world security scenarios. These competitions are generally categorized into several types of challenges:
 
 ### Reverse Engineering 
 In reverse engineering challenges, participants are given binary files or executables. The objective is to understand the software's inner workings without having its source code. Solving these challenges often requires disassembling or decompiling the binaries, understanding the algorithms being used, and identifying any hidden functionalities or vulnerabilities.

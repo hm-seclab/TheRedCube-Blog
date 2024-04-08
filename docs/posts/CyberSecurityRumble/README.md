@@ -10,7 +10,7 @@ We had a great time at the CyberSecurityRumble, a CTF organized by TheRedRocket 
 
 It was great to have no limits on the participants, which allowed us to have a lot of students joining the team and working for the first time on a CTF challenge. This was a great opportunity. We had up to 21 participants at the university to work together on all types of challenges.
 
-Together, we made it to place 39 out of over 264 participating teams.
+Together, we placed 39 out of over 264 participating teams.
 
 ### WriteUps
 
