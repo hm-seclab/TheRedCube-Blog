@@ -1,8 +1,6 @@
 ---
 date: 2024-10-07
 author: Peter Trapp
-timeline: false
-article: false
 cover: /assets/images/NasaSpaceApps-24.png
 ---
 
