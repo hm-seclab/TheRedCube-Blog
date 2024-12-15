@@ -185,7 +185,7 @@ n.apply(undefined,
 )
 ```
 
-The previously explained function `n(e, t, r)` will now used yet another `reduce()` to iterator over all the functions in the
+The previously explained function `n(e, t, r)` will now use yet another `reduce()` to iterator over all the functions in the
 first subarray and execute them on `r-password` with the corresponding element from the second subarray as it's parameters.
 
 Since this one operation is relatively simple, it is possible to explain it on a step by step basis in a timely manner.
@@ -206,7 +206,7 @@ String.prototype.charAt.apply(r, [6]);
 ```
 
 Since this is executed in the context of a `reduce()` call, the return value of the above line is then passed on to the next function call.
-While the second function is a custom on in this case, it still works the same. The return value of the previous function, refered to as `a`
+While the second function is a custom one in this case, it still works the same. The return value of the previous function, refered to as `a`
 will become the value `this` of the custom function due to the nature of Javascript. The new `e` will have the value `"0"`.
 
 ```js
@@ -274,7 +274,7 @@ The next `t` object is:
         // c = "" -> "abcdabcdabcd".split("")
         c,
 
-        // Same as in the previous block, use Rot13 on the 
+        // Same as in the previous block, use Rot13 on the
         // trippled and then split string
         [e => -1 == u.call(c2, e) ? e : c1[u.call(c2, e)]],
 
