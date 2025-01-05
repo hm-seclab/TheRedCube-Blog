@@ -9,7 +9,7 @@ timeline: false
 
 The challenge contains the encryption code & a wireshark recording. In the wireshark recording, messages from the server to the client can be found:
 
-```
+```json
 {"init": false, "cmd": "ocXzAq8Q"}
 {"init": true, "id": "eba14c429a64b2251717da016e096091", "cmd": "kn4="}
 {"init": true, "id": "efbb599758d1743333e5b43ac3e4e2b2", "cmd": "2ulbTirRTzn+EKa1bvu3"}
@@ -20,15 +20,11 @@ The challenge contains the encryption code & a wireshark recording. In the wires
 
 Each contains the encrypted and base64 encoded command and a `uuid` after initialization. The encryption is an XOR cipher with mutating key, known as **LCG**. A forward step is calculated like:
 
-```math
-state~=~(a⋅state+b)\mod m
-```
+$state~=~(a⋅state+b)\mod m$
 
 After each encryption of a character, a forward step is executed, resulting in a new `state`. After encryption of a message, another forward step is executed and the resulting `state` is saved as the `uuid`. As decryption is symmetric to encryption, the initial state is required for decryption. To calculate back to the initial state, the following formula can be used:
 
-```math
-prev\_ state~=~((state−b)⋅a^{−1})\mod m
-```
+$prev\_ state~=~((state−b)⋅a^{−1})\mod m$
 
 That way the initial state (`SEED`) of a message can be calculated by going $message\_ length + 1$ steps backwards, as the generation of the `id` is an additional step. The following python code calculates the `SEED` for the long message (message length 928):
 
