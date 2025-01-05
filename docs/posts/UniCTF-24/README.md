@@ -13,3 +13,4 @@ Big thanks to all those who participated, especially [Prof. Dr. Peter Trapp](htt
 We joined the CTF under the name **HM TheRedCube** as only universities are allowed to participate, and we managed to reach **46th place out of 872 participating teams**.
 
 - [Security In Front](SecurityInFront.md)
+- [Extrafiltred Entropy](ExtrafiltredEntropy.md)

@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "assets/images/logo.png",
+  logo: "https://fs.cs.hm.edu/wp-content/uploads/2024/12/small_logo.png",
 
   repo: "hm-seclab/TheRedCube-Blog",
 
