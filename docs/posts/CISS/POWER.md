@@ -1,7 +1,7 @@
 ---
 date: 2025-07-31
 author: Marius Biebel
-article: true
+article: false
 ---
 
 # POWER
