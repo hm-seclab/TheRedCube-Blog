@@ -6,6 +6,8 @@ cover: /assets/images/2025-CISS.png
 
 # CISS 2025 ICS CTF
 
+![Scoreboard](Scoreboard.png)
+
 This summer we participated in the [CISS 2025 ICS CTF](https://itrust.sutd.edu.sg/ciss-2025/), organized by [iTrust](https://itrust.sutd.edu.sg/), the [SUTD](http://www.sutd.edu.sg/), and the Singapore [DIS](https://www.dis.gov.sg/). It was a great experience for us and allowed us many insights into the world of ICS security. In the following, you can find our write-ups for the challenges we solved. While the challenges came in groups, we decided to also write one note for each group.
 
 We were super happy that we managed 1st place in the CTF out of 72 teams.
