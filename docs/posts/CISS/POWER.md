@@ -1,3 +1,9 @@
+---
+date: 2025-07-31
+author: Marius Biebel
+article: true
+---
+
 # POWER
 
 One of the challenge groups provided by the CISS CTF was related to power systems. The setup was based on the IEC-61850 MMS and GOOSE protocols. 
