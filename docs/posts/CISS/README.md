@@ -14,7 +14,7 @@ We were super happy that we managed 1st place in the CTF out of 72 teams.
 
 Also, we want to thank the organizers for allowing us to participate with several teams. Therefore, we were able to join with our core team, where we met on-site at our university for an intense two days, while also allowing less experienced players to join remotely from home or work on CTF challenges for the first time in separate teams.
 
-Many thanks go to [Prof. Dr. Peter Trapp](https://hm.edu/kontakte_de/contact_detail_32577.de.html), who helped us again organize the CTF at the University of Applied Sciences Munich. We also want to thank the organizers of the CTF for their great work and the opportunity to participate in this event.
+Many thanks go to [Prof. Dr. Peter Trapp](https://hm.edu/kontakte_de/contact_detail_32577.de.html), who helped us again organize our participation in the CTF at the University of Applied Sciences Munich. We also want to thank the organizers of the CTF for their great work and the opportunity to participate in this event.
 
 - [NCL](/TheRedCube-Blog/posts/CISS/NCL.html)
 - [SWaT](/TheRedCube-Blog/posts/CISS/SWaT.html)
