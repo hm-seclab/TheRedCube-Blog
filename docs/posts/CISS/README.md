@@ -15,8 +15,8 @@ Also, we want to thank the organizers for allowing us to participate with severa
 Many thanks go to [Prof. Dr. Peter Trapp](https://hm.edu/kontakte_de/contact_detail_32577.de.html), who helped us again organize the CTF at the University of Applied Sciences Munich. We also want to thank the organizers of the CTF for their great work and the opportunity to participate in this event.
 
 - [NCL](/TheRedCube-Blog/posts/CISS/NCL.html)
-- [SWaT](/TheRedCube-Blog/posts/CISS/SWaT.html)
-- [GASP](/TheRedCube-Blog/posts/CISS/GASP.html)
+- [SWaT](/TheRedCube-Blog/posts/CISS/SWaT_and_GASP.html)
+- [GASP](/TheRedCube-Blog/posts/CISS/SWaT_and_GASP.html)
 - [5G](/TheRedCube-Blog/posts/CISS/5G.html)
 - [MariOT](/TheRedCube-Blog/posts/CISS/MariOT.html)
 - [POWER](/TheRedCube-Blog/posts/CISS/POWER.html)
