@@ -1,6 +1,8 @@
 ---
 date: 2025-07-31
 author: Thomas Gingele
+article: false
+title: SWaT and GASP
 cover: /assets/images/2025-CISS.png
 ---
 
