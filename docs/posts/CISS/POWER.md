@@ -14,7 +14,7 @@ One of the challenge groups provided by the CISS CTF was related to power system
 
 The first challenge provided us with a PCAP file and the request to find the highest IP address for the "House of Healing GRID". After some analysis in the communication flow we came up with the following table that grouped the communication flow. For analysis of the PCAP files in the challenge we used [Skunkworks Network Analyzer](https://www.otb-consultingservices.com/brainpower/shop/skunkworks-network-analyzer/), which is a fork of Wireshark and a great tool for analyzing ICS network traffic and protocols like GOOSE and MMS, as it comes with preinstalled support to parse the body of such packet frames.
 
-![Communication Flow](POWER-01.png)
+![Communication Flow](.media/POWER-01.png)
 
 This is the list of endpoints as WireShark provided us with. Enriched with notes on which endpoint communicated with each other. So we figured the highest IP is the **172.100.0.18** which was wrong. Looking at the communication flow we figured, that this IP might be an HMI because every endpoint except the *.41 IPs send information to it. Therefor it might not be an IED as specified in the challenge.
 
@@ -22,7 +22,7 @@ Next we tried **172.26.20.41** which was also wrong. Looking at the flow again w
 
 At this point we felt a bit stuck and decided to look at the next challenge, which proved to be very helpful as it provided us with the following plot: 
 
-![Network Diagram](POWER-02.png)
+![Network Diagram](.media/POWER-02.png)
 
 This is also super helpful for the first challenge, especially as we now know that the network segments are named, and there is a specific segment we were asked about: the "House of Healing". With this plot we were able to map the network segments to the IPs we found in the first challenge and identified the correct IP as **172.24.10.14**. 
 
@@ -95,7 +95,7 @@ So we looked for other tooling with more of a focus on analytics tools and encou
 
 The IED Explorer lookes like follows (Unfortunately i now see that this screenshot is of the wrong IED CB1 and not the target CB5). After a conversation with Google Gemini about how naming conventions work in the IEC-61850 standard we figured that the value we were looking for is the `MMUX1.TotW.mag.f` which was exactly 1.0000.
 
-![Network Diagram](POWER-03.png)
+![Network Diagram](.media/POWER-03.png)
 
 **CISS25{1.0000}**
 
@@ -131,7 +131,7 @@ For IP `172.24.10.12`, the legitimate source MAC was consistent (`da:b8:a8:ed:57
 The IP remained the same, but the source MAC changed — a clear MITM indicator.
 This means the attacker began injecting or modifying packets under a trusted IP identity at **packet 1096**.
 
-![MAC Anomaly](POWER-04.png)
+![MAC Anomaly](.media/POWER-04.png)
 
 Also, the timestamp aligns with the expected attack window from the CSV log. Other possible corruption checks (TPKT length mismatch, ASN.1 overflow) didn’t yield a clearer candidate.  No earlier MAC spoof events were detected — confirming **packet 1096** as the first sign of the Enemy’s mystical interception.
 
@@ -153,11 +153,11 @@ Also, the timestamp aligns with the expected attack window from the CSV log. Oth
 
 Using the IED Explorer we were able to open the CB5 circuit breaker and then measure the current flowing through the secondary side of the transformer CB2. Important to know is again the right address of the control signal that is to be sent using the IEC 61850 MMS protocol. The `XCBR1.Pos` is the cirquit breaker controler. The ctlModel describes the default setting as described by the SCL file that sets the default configuration of the IED. What we need is the active in `XCBR1.Pos.Oper.ctlVal` that allows to activate and deactivate the circuit breaker.
 
-![IED Explorer send control signal](POWER-05.png)
+![IED Explorer send control signal](.media/POWER-05.png)
 
 Now we can connect IED Explorer to the CB2 in the Stone Street Nexus and query the current flowing through the secondary side of the transformer. The value we got was **0.0094**. Important, we now don't look at the total power in `MMUX1.TotW.mag.f` but at the current in `MMUX1.A.phsA.cVal.mag.f` which is the current flowing through the secondary side of the transformer CB2. As each phase has the same current flow it does not matter which phase we look at.
 
-![IED Explorer query current](POWER-06.png)
+![IED Explorer query current](.media/POWER-06.png)
 
 **CISS25{0.0094}**
 
