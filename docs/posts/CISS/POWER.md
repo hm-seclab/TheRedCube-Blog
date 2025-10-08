@@ -1,6 +1,6 @@
 ---
 date: 2025-07-31
-author: Marius Biebel
+author: Marius Biebel und Simon Neumeier
 article: false
 ---
 
