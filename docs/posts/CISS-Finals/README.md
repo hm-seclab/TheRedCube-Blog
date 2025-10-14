@@ -15,4 +15,4 @@ The CTF finals took place in three stages:
 - Based on this information, we took part in the discovery phase, where we accessed the systems to explore them and validate our setups during a 3-hour period.
 - Finally, the attack phase required us to perform attacks on the systems during a 4-hour period.
 
-A detailed list of our findings and results is available in our [Engagement Report](/TheRedCube-Blog/posts/CISS-Finals/CISS2025-Report.pdf), which we submitted to the organizers after the CTF.
+A detailed list of our findings and results is available in our [Engagement Report](/TheRedCube-Blog/assets/CISS2025-Report.pdf), which we submitted to the organizers after the CTF.
